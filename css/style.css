@@ -88,43 +88,7 @@ h1{
 }
 /* / leadership */
 
-/* /col */
-.img-left{
-    height: 250px;
-    background-image: url(../img/img-1.jpg);
-    border-radius: 10px;
-    background-position: center;
-}
-
-.grey{
-    color: #B7B7B7;
-}
-
-.opacity{
-    height: 100%;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-h4{
-    margin: 15px 0;
-}
-
-.img-centre{
-    height: 250px;
-    background-image: url(../img/banner-2.jpg);
-    background-size: cover ;
-    border-radius: 10px;
-    background-position: center;
-}
-
-.img-right{
-    height: 250px;
-    background-image: url(../img/img-3.jpg);
-    border-radius: 10px;
-    background-position: center;
-}
-
+/* /columns */
 .col-left,
 .col-centre,
 .col-right{
@@ -148,13 +112,46 @@ h4{
     display: table;
     clear: both;
 }
-/* /col */
+.grey{
+    color: #B7B7B7;
+}
+
+.opacity{
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+h4{
+    margin: 15px 0;
+}
+
+.img-left, .img-centre, .img-right{
+    height: 250px;
+    border-radius: 10px;
+    background-position: center;
+}
+
+.img-left{
+    background-image: url(../img/img-1.jpg);
+}
+
+.img-centre{
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover ;
+}
+
+.img-right{
+    background-image: url(../img/img-3.jpg);
+}
+
+/* /columns */
 /* /main */
 
 /* footer */
 footer{
     height: 50px;
     margin: 50px 0;
-    background-color: #8801FE;
+    text-align: center;
 }
 /* /footer */ 
