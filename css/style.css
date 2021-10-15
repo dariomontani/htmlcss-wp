@@ -10,7 +10,7 @@ html{
 }
 
 .container{
-    width: 80%;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
 }
@@ -67,7 +67,7 @@ a{
 }
 /* /jumbotron */
 
-/* section leadership */
+/* div leadership */
 .leadership{
     height: 100%;
     padding-bottom: 20px;
@@ -76,7 +76,7 @@ a{
 .heading-leadership{
     height: 100px;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 h1{
@@ -86,13 +86,49 @@ h1{
 .p-leadership{
     color: #B7B7B7;
 }
-/* /section leadership */
+/* / leadership */
+
+/* /col */
+.img-left{
+    height: 250px;
+    background-image: url(../img/img-1.jpg);
+    border-radius: 10px;
+    background-position: center;
+}
+
+.grey{
+    color: #B7B7B7;
+}
+
+.opacity{
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+h4{
+    margin: 15px 0;
+}
+
+.img-centre{
+    height: 250px;
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover ;
+    border-radius: 10px;
+    background-position: center;
+}
+
+.img-right{
+    height: 250px;
+    background-image: url(../img/img-3.jpg);
+    border-radius: 10px;
+    background-position: center;
+}
 
 .col-left,
 .col-centre,
 .col-right{
     height: 500px;
-    background-color: #ABCFE7;
     float: left;
 }
 
@@ -103,8 +139,8 @@ h1{
 
 .col-centre{
     width: 50%;
-    border-left: 15px solid #0086FF;
-    border-right: 15px solid #0086FF;
+    border-left: 15px solid white;
+    border-right: 15px solid white;
 }
 
 .clearfix::after{
@@ -112,13 +148,13 @@ h1{
     display: table;
     clear: both;
 }
-/* /section blue */
+/* /col */
 /* /main */
 
 /* footer */
 footer{
     height: 50px;
-    margin: 10px 0;
+    margin: 50px 0;
     background-color: #8801FE;
 }
 /* /footer */ 
