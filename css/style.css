@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 html{
@@ -18,7 +19,22 @@ html{
 header{
     height: 150px;
     margin: 20px 0;
-    background-color: #E579E6;
+}
+
+.logo-neori{
+    width: 13em;
+    padding: 10px;
+    border-right: 1px solid #F1F1F1;
+}
+
+a{
+    color: #B7B7B7;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.links{
+    margin-top: 30px;
 }
 /* header */
 
