@@ -67,18 +67,26 @@ a{
 }
 /* /jumbotron */
 
-/* /section blue */
-.blue-section{
+/* section leadership */
+.leadership{
     height: 100%;
-    background-color: #0086FF;
     padding-bottom: 20px;
 }
 
-.heading-blue-section{
+.heading-leadership{
     height: 100px;
+    margin-top: 30px;
     margin-bottom: 20px;
-    background-color: #ABCFE7;
 }
+
+h1{
+    font-size: 2.5em;
+}
+
+.p-leadership{
+    color: #B7B7B7;
+}
+/* /section leadership */
 
 .col-left,
 .col-centre,
