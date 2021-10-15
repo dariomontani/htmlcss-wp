@@ -67,7 +67,7 @@ a{
 }
 /* /jumbotron */
 
-/* div leadership */
+/* leadership */
 .leadership{
     height: 100%;
     padding-bottom: 20px;
@@ -86,7 +86,7 @@ h1{
 .p-leadership{
     color: #B7B7B7;
 }
-/* / leadership */
+/* /leadership */
 
 /* /columns */
 .col-left,
@@ -144,13 +144,11 @@ h4{
 .img-right{
     background-image: url(../img/img-3.jpg);
 }
-
 /* /columns */
 /* /main */
 
 /* footer */
 footer{
-    height: 50px;
     margin: 50px 0;
     text-align: center;
 }
